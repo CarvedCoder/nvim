@@ -57,7 +57,7 @@ return {
     }
 
     presence:setup {
-      client_id = '1366092137866727434',
+      client_id = 'DISCORD_CLIENT_ID',
       auto_update = true,
       neovim_image_text = 'Neovim: weaving creative code fabrics',
       main_image = 'file',

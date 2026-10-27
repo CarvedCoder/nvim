@@ -20,3 +20,6 @@ vim.cmd.colorscheme("catppuccin-mocha")
 require("render-markdown").setup({
     completions = { lsp = { enabled = true } },
 })
+
+vim.keymap.set("n", "<C-s>", ":w<CR>")
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>a")
